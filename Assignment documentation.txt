@@ -1,0 +1,18 @@
+This note documents the usage of the SHiny App
+
+The aim of the app is to demonstrates how stepwise regression allows choosing of variables and the effect of adding or exluding variables.
+
+The dataset used is the mtcars. It has for various car models their corresponding mpg and other variables such as the weight, number of cylinders, whether transmission is manual or automatic...
+
+(a)The slider (on the left) allows the user to decide on the number of variables to include in the regression.
+
+(b)The first chart (top left) shows the distribution of our target variable: mpg.
+
+(c)The second shows how well the predictions of the model match the actual mpg. A 45degree line showing perfect accuracy is drawn for reference.If all points fall on this line, then it shows the prediction matches the actual perfectly.
+
+(d) The next 4 charts are the standard error plots: 
+	(i) Chart on top right is the distribution of residuals and the fit; ideally there should be no pattern discernable
+	(ii) Chart on bottom left, shows the normal qq plot; ideally all the residuals should lie on the reference line indicating normal distribution
+	(iii) third and fourth respective charts show the impact of any outliers in the model; ideally again, all points should be along the lines.
+	
+The user can experiment by changing the number of variables in the slider, and decide the best model based on the graphs provided.
